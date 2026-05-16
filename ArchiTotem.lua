@@ -395,8 +395,8 @@ function ArchiTotem_OnEvent(event, arg1)
             ArchiTotem_ActiveTotem()
         end
     elseif event == "CHAT_MSG_SPELL_SELF_BUFF" then
-        local _, _, castedTotem, _ = string.find(arg1, L["You cast (.*) Totem."])
-        local _, _, totemicRecall, _ = string.find(arg1, L["from Totemic Recall."])
+        local _, _, castedTotem = string.find(arg1, L["You cast (.*) Totem."])
+        local totemicRecall = string.find(arg1, L["from Totemic Recall."])
         if castedTotem ~= nil then
             local totemCastedName = castedTotem .. " Totem"
             for totem in ArchiTotem_TotemData do
