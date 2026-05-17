@@ -1,5 +1,5 @@
 ## Interface: 11200
-## Title: ArchiTotem111
+## Title: ArchiTotem
 ## Notes: All totems on 4 barslots. TurtleWoW Edition!
 ## Version: 1.8.0
 ## Author: Durotavich of Nordanaar TurtleWoW EU
