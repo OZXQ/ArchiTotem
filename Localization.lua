@@ -40,6 +40,7 @@ if LOCALE == "zhCN" then
     L["Sentry Totem"] = "岗哨图腾"
 
     L["Totemic Recall"] = "图腾召回"
+    L["Cast All"] = "一键施放"
 
     L["Cast Earth Totem"] = "施放大地图腾"
     L["Cast Fire Totem"] = "施放火焰图腾"
